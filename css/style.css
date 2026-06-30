@@ -14,13 +14,14 @@ body {
   align-items: center;
   height: 100vh;
   background: #239ac2;
+  
 }
 
 .birthdayCard {
   position: relative;
   top: 100px;
   width: 250px;
-  height: 91.5%;
+  height: 91%;
   margin-bottom: 200px;
   cursor: pointer;
   transform-style: preserve-3d;
@@ -166,4 +167,10 @@ p {
 
 .balloons > div:nth-child(4)::after {
   border-bottom: 10px solid #13a9bd;
+}
+
+@media(max-width: 1075px) {
+ .birthdayCard {
+  height: 105%;
+} 
 }
